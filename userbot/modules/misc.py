@@ -78,7 +78,7 @@ async def knocksomesense(event):
 @grp_exclude()
 async def bot_support(wannahelp):
     """ For .support command, just returns the group link. """
-    await wannahelp.edit("Group: @tgpaperplane")
+    await wannahelp.edit("Group: @jaackreviews")
 
 
 @register(outgoing=True, pattern="^.repo$")
