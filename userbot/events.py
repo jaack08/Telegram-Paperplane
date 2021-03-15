@@ -16,7 +16,7 @@ from traceback import format_exc
 from telethon import events
 
 from userbot import bot, BOTLOG, BOTLOG_CHATID, LOGS
-from userbot.modules.dbhelper import get_exclude
+from userbot import get_exclude
 
 
 def register(**args):
